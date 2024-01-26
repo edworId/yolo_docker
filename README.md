@@ -4,7 +4,7 @@ O YOLO (You Only Look Once) é um inovador algoritmo de detecção de objetos em
 
 Já o Docker é uma plataforma de código aberto que simplifica a implantação e gerenciamento de aplicativos em contêineres. Contêineres são unidades leves e portáteis que encapsulam o código, suas dependências e configurações, garantindo consistência em diferentes ambientes. Uma das principais funcionalidades do Docker é a capacidade de isolar aplicativos em contêineres, eliminando inconsistências entre ambientes de desenvolvimento, teste e produção. Além disso, o Docker permite a rápida escalabilidade e distribuição de aplicativos, facilitando a integração contínua e a entrega contínua.
 
-<h2>VANTAGENS: </h2>
+### VANTAGENS:
 	
 	- O Docker é rápido: Ao contrário de uma máquina virtual, seu aplicativo inicializa em alguns segundos e para com a mesma rapidez.
 	- O Docker é multiplataforma: Você pode iniciar seu contêiner em qualquer sistema.
@@ -13,7 +13,7 @@ Já o Docker é uma plataforma de código aberto que simplifica a implantação 
 	- Você mantém seu espaço de trabalho limpo, pois cada um de seus ambientes será isolado e você pode excluí-los a qualquer momento, sem impactar o resto.
 	- É mais fácil implantar seu projeto no servidor para colocá-lo online.
 
-<h2>DESVANTAGENS: </h2>
+### DESVANTAGENS:
 	
 	- Há uma tonelada de solicitações de recursos para upgrade que ainda estão em andamento (como capacidade de autorregistro e autoinspeção de contêineres, cópia de arquivos do host para o contêiner e muito mais).
 	- Há momentos em que um container fica inativo, então depois disso, ele precisa de uma estratégia de backup e recuperação, embora existam várias soluções, mas que não são automatizadas ou nem muito escaláveis ainda.
@@ -79,10 +79,21 @@ $ docker rm 'container' (Remove containers indesejados)
 $ docker rmi 'imagem' (Remove imagens indesejados)
 ```
 
+
+
+## Arquivos disponíveis
+
+app_teste - Usado para teste do funcionamento do YOLO com ultralytics sem docker
+app_custom - Usado para um modelo custom do YOLO já para ser integrado com a imagem Docker que será criada (faça as alterações no código sobre o modelo e a imagem)
+dockerfile - Utilizado para criação da imagem com as instalações devidas para seu funcionamento e instrunções de cópia de todos arquivos presentes na pasta
+predict.csv - resultado do teste realizado
+dog.jpeg - imagem do teste
+yolov5s.pt - modelo baixado para o teste com a ultralytics 
+
     
 <h1 align="center">  </h1>
 
-CLONE: git clone 
+CLONE: git clone git@github.com:edworId/yolo_docker.git
 
 <h1 align="center"> Autores </h1>
 
