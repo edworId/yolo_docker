@@ -98,7 +98,8 @@ CLONE: git clone git@github.com:edworId/yolo_docker.git
 <h1 align="center"> Autores </h1>
 
 | [<img src="https://avatars.githubusercontent.com/u/110691832?s=400&u=e671447386d38975c165bff78b715ea80549c069&v=4" width=115><br><sub>Edmundo Lopes Silva</sub>](https://github.com/edworId) |  
-| :---: |
+| :---: |      
+| [<img src="https://avatars.githubusercontent.com/u/70495992?s=400&u=08519f58327d4fe11229ea8fc47b9d2d1be689a5&v=4" width=115><br><sub>Michael Botelho</sub>](https://github.com/michaelbs09) |  
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"/>
