@@ -23,7 +23,7 @@ Já o Docker é uma plataforma de código aberto que simplifica a implantação 
 
 <h1 align="center">  </h1>
 <p align="center">
-<img width="900", img src="https://github.com/edworId/facial_emotion_detection/blob/main/menu.png"/>
+<img width="900", img src="https://github.com/edworId/yolo_docker/blob/main/Estrutura%20Docker.jpeg"/>
 </p>
 
 <h6 align="center"> Estrutura Docker </h6>
